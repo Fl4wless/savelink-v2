@@ -1,0 +1,58 @@
+.newLink {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    max-width: 90%;
+}
+
+.linkForm {
+    width: 100%;
+}
+
+.newLinkForm {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    margin: 15px auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.newLinkForm>form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 15px 0;
+}
+
+.newLinkForm>form>input,
+.newLinkForm>form>textarea {
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+
+.newLinkForm>form>input:focus,
+.newLinkForm>form>textarea:focus {
+    border: 1px solid whitesmoke;
+    background-color: #f4ecf7;
+}
+
+.MuiButton-root {
+    background-color: #55138b !important;
+    color: white !important;
+}
+
+.openForm {
+    font-size: 30px !important;
+}

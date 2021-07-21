@@ -1,0 +1,14 @@
+.comments {
+    background-color: whitesmoke;
+    width: 600px;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.comments>h3 {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid whitesmoke;
+}

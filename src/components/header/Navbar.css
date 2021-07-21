@@ -1,0 +1,105 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
+.navbar__container {
+    height: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.nav__item {
+    color: gray;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+}
+
+.nav__item:hover {
+    color: black;
+    border-bottom: 1px solid lightseagreen;
+}
+
+.nav__item.hover:hover {
+    color: #ffd700 !important;
+    border-bottom: 1px solid #ffd700;
+}
+
+.menuToggle {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar__links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__logo {
+    font-size: x-large;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar {
+        position: relative;
+    }
+    .navbar__links {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        height: 90vh;
+        top: 70px;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+    .navbar__links.active {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90vh;
+        top: 70px;
+        left: 0;
+        z-index: 10;
+        opacity: 1;
+        transition: all 0.3s ease;
+        background-color: whitesmoke;
+    }
+    .nav__item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav__item:hover {
+        color: black;
+        background-color: white;
+        border: none;
+    }
+    .menuToggle {
+        display: block;
+        padding-right: 30px;
+    }
+}

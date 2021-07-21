@@ -1,0 +1,55 @@
+.post {
+    max-width: 90%;
+    width: 600px;
+    padding: 0 15px;
+    height: fit-content;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    transition: all 0.7s ease;
+}
+
+.post.liked {
+    background-color: mistyrose;
+    transition: all 0.7s ease;
+}
+
+.post__header {
+    display: flex;
+    padding-top: 15px;
+}
+
+.post__createInfo {
+    margin-left: 15px;
+}
+
+.post__createInfo>p {
+    padding-top: 3px;
+    font-size: 11px;
+}
+
+.post__title {
+    margin-top: 10px;
+}
+
+.post__link {
+    margin-top: 2px;
+}
+
+.post__link>a {
+    font-size: small;
+    color: gray;
+    text-decoration: none;
+}
+
+.post__link>a:hover {
+    color: black;
+}
+
+.post__text {
+    margin-top: 10px;
+    font-size: 15px;
+    padding-bottom: 5px;
+}

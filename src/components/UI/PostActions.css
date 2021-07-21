@@ -1,0 +1,34 @@
+.post__actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.likeIcon:hover {
+    color: red !important;
+    transition: all 0.2s ease;
+}
+
+.likeIcon.active {
+    color: red !important;
+}
+
+.scheduleIcon:hover {
+    color: #ffd700 !important;
+    transition: all 0.2s ease;
+}
+
+.deleteIcon:hover {
+    color: #55138b !important;
+    transition: all 0.2s ease;
+}
+
+.infoIcon:hover {
+    color: #0074d9 !important;
+    transition: all 0.2s ease;
+}
+
+.commentIcon:hover {
+    color: #66bb6a !important;
+    transition: all 0.2s ease;
+}

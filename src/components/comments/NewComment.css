@@ -1,0 +1,30 @@
+.newComment {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.newComment>textarea {
+    width: 90%;
+    outline: none;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.newComment>textarea:focus {
+    background-color: white;
+}
+
+.newComment__button {
+    border: 1px solid #8e44ad;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.newComment__button:hover {
+    background-color: #d7bde2;
+}
